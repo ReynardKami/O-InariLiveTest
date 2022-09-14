@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import "../styles/NavBar.css";
+@import "../styles/ConnectWallet.css";
+
+
+/* *{
+  outline: 1px solid red !important;
+} */
+
+
 html,
 body {
   padding: 0;
@@ -21,6 +31,183 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: white;
+    font-family: Audiowide;
   }
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  padding: 0.4rem;
+  top: 0;
+  z-index: 1;
+  
+  background: linear-gradient(rgba(0, 0, 0, 0.9), transparent);
+  background-color: black;
+}
+
+.navmenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 0.7rem ;
+  padding-left: 3rem;
+  padding-right: 3.5rem;
+
+ 
+}
+
+
+
+.card1 {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.95rem;
+  border-radius: 10px;
+
+  transition: all 0.4s ease-in-out, border-color 0.4s ease-in-out, background-color 0.4s ease-out;
+  list-style: none;
+  max-width: 300px;
+  margin-right: .3rem;
+}
+
+.card2 {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.95rem;
+  border-radius: 10px;
+
+  transition: all 0.4s ease-in-out, border-color 0.4s ease-in-out, background-color 0.4s ease-out;
+  list-style: none;
+  max-width: 300px;
+  margin-right: .3rem;
+}
+
+.card3 {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.95rem;
+  border-radius: 10px;
+
+  transition: all 0.4s ease-in-out, border-color 0.4s ease-in-out, background-color 0.4s ease-out;
+  list-style: none;
+  max-width: 300px;
+  margin-right: .3rem;
+}
+
+.card4 {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.95rem;
+  border-radius: 10px;
+
+  transition: all 0.4s ease-in-out, border-color 0.4s ease-in-out, background-color 0.4s ease-out;
+  list-style: none;
+  max-width: 300px;
+  margin-right: .3rem;
+}
+
+.card1:hover,
+.card1:focus,
+.card1:active {
+  color: black;
+  background: linear-gradient(rgba(0, 82, 224, 1), transparent);
+  text-shadow: 1px 1px 1px whitesmoke;
+
+  background-color: whitesmoke;
+  transition: all 0.3s ease-out;
+  
+}
+
+.card2:hover,
+.card2:focus,
+.card2:active {
+  color: black;
+  background: linear-gradient(rgba(0, 183, 94, 1), transparent);
+  text-shadow: 1px 1px 1px whitesmoke;
+
+  background-color: whitesmoke;
+  transition: all 0.3s ease-out;
+  
+}
+
+.card3:hover,
+.card3:focus,
+.card3:active {
+  color: black;
+  background: linear-gradient(rgba(255, 79, 0, 1), transparent);
+  text-shadow: 1px 1px 1px whitesmoke;
+
+  background-color: whitesmoke;
+  transition: all 0.3s ease-out;
+  
+}
+
+.card4:hover,
+.card4:focus,
+.card4:active {
+  color: black;
+  background: linear-gradient(rgba(255, 0, 0, 1), transparent);
+  text-shadow: 1px 1px 1px whitesmoke;
+
+  background-color: whitesmoke;
+  transition: all 0.3s ease-out;
+  
+}
+
+
+li {
+    list-style: none;
+    margin-left: 1rem;
+  
+}
+
+a {
+    text-decoration: none;
+}
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+button:hover,
+button:focus {
+    background:transparent;
+}
+
+button:focus {
+    outline: none;
+
+}
+
+
+
+
+/*  ********** End of global styles ************ */
+
