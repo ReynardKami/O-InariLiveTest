@@ -6,6 +6,7 @@ import styled from "styled-components";
 import Link from "next/link";
 import Logo from "../components/Logo";
 import { ConnectWallet, ThirdwebProvider } from "@thirdweb-dev/react";
+import Hero from "../components/Hero";
 
 export const changeNetwork = async ({ setError }) => {
   try {
